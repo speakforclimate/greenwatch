@@ -17,7 +17,7 @@
     <nav class="navbar is-danger">
         <div class="navbar-brand">
             <a class="navbar-item" href="https://bulma.io">
-                <img src="logo.png" alt="Greenwatch logo" width="112" height="28">
+                <img src="img/logo.png" alt="Greenwatch logo" width="112" height="28">
             </a>
             <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
                 <span></span>
@@ -192,7 +192,7 @@
         // Loop through the buttons and add the active class to the current/clicked button
         for (var i = 0; i < btns.length; i++) {
         btns[i].addEventListener("click", function() {
-            var current = document.getElementsByClassName("is-active ");
+            var current = document.getElementsByClassName(" is-active ");
 
             // If there's no active class
             if (current.length > 0) {
@@ -200,7 +200,7 @@
             }
 
             // Add the active class to the current/clicked button
-            this.className += "is-active ";
+            this.className += " is-active ";
         });
         }
         </script>
