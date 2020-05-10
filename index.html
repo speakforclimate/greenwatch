@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <nav class="navbar is-danger is-fixed-top">
+    <nav class="navbar is-danger is-fixed-top" style="background-color:#566E2A">
         <div class="navbar-brand">
             <a class="navbar-item" href="index.html">
-                <img src="img/logo.PNG" alt="Greenwatch logo" width="112" height="28">
+                <img style="background-color:#566E2A" src="img/logo.PNG" alt="Greenwatch logo" width="112" height="28">
             </a>
             <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
                 <span></span>
@@ -60,8 +60,9 @@
         </div>
     </nav>      
     <section class="section">
-        <div class="container has-text-centered">
-            <h2 class="title">Greenwatch</h2>
+        <div class="container has-text-centered is-fullwidth">
+            <h1 class="title">Climate Scorecard</h1>
+            <!--<img src="img/banner.PNG">-->
             <p>SG Climate Rally (SGCR) and Speak for Climate (S4C) have teamed up for <i>Greenwatch</i>, a campaign aimed at garnering greater recognition of the climate crisis and deeper commitments to climate policy during the upcoming General Election (GE) in Singapore.</p>
             <section class="tabs is-fullwidth">
             <div class="tabs is-fullwidth" id="tab">
@@ -85,34 +86,27 @@
         <br>
         <br>
         <div class="container table" >
-            <h2 class="title has-text-left">Climate Ambition (2/9)</h2>
-            <p>describe what this is</p>
+                <h2 class="title has-text-left is-full">Climate Ambition (2/9)</h2>
+                <p>To overcome the greatest challenge faced by humanity in our lifetimes, three things are required: <a href="https://www.wri.org/blog/2018/12/cop24-climate-change-package-brings-paris-agreement-life" target="blank">“Ambition, ambition, ambition.”</a> Every country owes a responsibility, not just to its citizens but all life and future generations, to commit to bold climate change mitigation and adaptation targets, implement measures to achieve those targets, and finance them fully. Singapore is no exception. </p>
             <div class="table-container">
                 <table class="table is-bordered is-fullwidth is-hoverable">
                 <thead>
                     <tr>
                     <th>Question</th>
-                    <th>Boundary Guideline</th>
                     <th>Score</th>
                     </tr>
                 </thead>
                     <tbody>
                         <tr>
                             <td>
-                                <p>What are the party’s climate targets under the Paris Agreement? </p>
-                                <br>
-                                <p>What timeframe has the party set for its climate targets?</p>
+                                <p>What are the party’s climate targets and timeframes under the Paris Agreement? </p>
                             </td>
                             <td>
-                                <p>-3: Withdraws from Paris Agreement</p>
-                                <br>
-                                <p>3: Update NDCs to align with IPCC’s recommendations (halve by 2030 and net-zero by 2050 based on 2010 level)</p>
-
-                            </td>
-                            <td>
+                                <p class="has-text-centered">
                                 <b>-1</b>
                                 <br>
-                                <button class="button is-small is-primary modal-button" data-target="#climateAmbition1" aria-haspopup="true">Details</button>                                
+                                <button class="button is-small is-primary modal-button" data-target="#climateAmbition1" aria-haspopup="true">Details</button>
+                                </p>
                             </td>
                         </tr>
                         <tr>
@@ -120,17 +114,11 @@
                                 <p>What overarching declarations, motions or legislation have the party put forth to tackle climate change?</p>
                             </td>
                             <td>
-                                <p>-3: Engages in climate denialism</p>
-                                <br>
-                                <p>2: Declare a Climate Emergency</p>
-                                <br>
-                                <p>3: Announce a whole-of-government Climate Change Act that legally commits the government to climate change mitigation</p>
-
-                            </td>
-                            <td>
+                                <p class="has-text-centered">
                                 <b>1</b>
                                 <br>
                                 <button class="button is-small is-primary modal-button" data-target="#climateAmbition2" aria-haspopup="true">Details</button>                                
+                                </p>
                             </td>
                         </tr>
                         <tr>
@@ -138,15 +126,11 @@
                                 <p>How has the party articulated its willingness to spend on addressing climate change?</p>
                             </td>
                             <td>
-                                <p>-3: Party retracts previously announced funding of climate measures</p>
-                                <br>
-                                <p>3: Party commits to creating a dedicated climate change expenditure category and aggressively increasing the proportion of Singapore’s annual budget/GDP spent on achieving the IPCC’s ambitions on climate measures (constituting both adaptation and mitigation)</p>
-
-                            </td>
-                            <td>
+                                <p class="has-text-centered">
                                 <b>2</b>
                                 <br>
                                 <button class="button is-small is-primary modal-button" data-target="#climateAmbition3" aria-haspopup="true">Details</button>                                
+                                </p>
                             </td>
                         </tr>
 
@@ -161,8 +145,10 @@
                             <p class="modal-card-title">Climate Targets and Paris Agreement</p>
                             </header>
                             <section class="modal-card-body">
+                            <div class="content">
                             <h3 class="title is-4">Summary</h3>
                             <p>Our ‘reductions target’ constitutes an absolute emissions increase until 2030, which does not meet our commitment to reduce emissions as soon as possible. A continued increase in emissions until 2030 fails to model a pathway to the IPCC target for 1.5 degree warming.</p>
+                            </div>
                             <div class="content">
                                 <h3 class="title is-4">Elaboration</h3>
                                 <ul>
@@ -171,6 +157,21 @@
                                     <li>The second part of the new NDC, which aims to reach half of <a href="https://www.straitstimes.com/singapore/environment/spores-2050-target-halve-emissions-from-2030-peak" target="blank">2030's emissions by 2050</a>, also lacks ambition. Half of 2030 emissions (65 MtCO2e) is 33 MtCO2e, which would mean only a return to 1997 emission levels according to <a href="https://climateactiontracker.org/countries/singapore/" target="blank">Climate Action Tracker’s data.</a> In order to keep global warming to within 1.5 degrees celsius, net global emissions <a href="https://www.ipcc.ch/sr15/chapter/spm/" target="blank">need</a> to reach 0 MtCO2e by 2050</li>
                                     <li>There appears to be no desire to meet the IPCC target for 1.5 degree warming. PM Lee Hsien Loong has declared that it is <a href="https://mothership.sg/2020/03/pm-lee-covid-19-interview-transcript/" target="blank">not practical</a> for Singapore to reach net zero emissions by 2050.</li>
                                 </ul>
+                            </div>
+                            <div class="content">
+                                <h3 class="title is-4">Boundary Guidelines</h3>
+                                <table class="table is-bordered ">
+                                    <tbody>
+                                        <tr>
+                                            <td><p class="has-text-centered">-3</p></td>
+                                            <td>Withdraws from Paris Agreement</td>
+                                        </tr>
+                                        <tr>
+                                            <td><p class="has-text-centered">3</p></td>
+                                            <td>Update NDCs to align with IPCC’s recommendations (halve by 2030 and net-zero by 2050 based on 2010 level)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                             </section>
                             <footer class="modal-card-foot">
@@ -197,6 +198,22 @@
                                     <li>Singapore also contributes to the reduction of emissions in the <a href="https://www.nccs.gov.sg/media-centre/parliamentary-replies/parliamentary-reply-by-senior-minister-teo-chee-hean-on-ministries-climate-compliance" target="blank">aviation</a> and <a href="https://www.nccs.gov.sg/media-centre/parliamentary-replies/parliamentary-reply-by-senior-minister-teo-chee-hean-on-ministries-climate-compliance" target="blank">maritime</a> industry. Singapore sits on the council of the <a href="https://www.straitstimes.com/singapore/singapore-re-elected-to-international-maritime-organisation-council" target="blank">International Maritime Organisation</a> and <a href="https://www.straitstimes.com/singapore/transport/singapore-re-elected-to-icao-council" target="blank">International Civil Aviation Organisation</a> to tackle international transport emissions. The government <a href="https://www.mot.gov.sg/news-centre/news/Detail/speech-by-senior-minister-of-state-for-transport-and-health-lam-pin-min-at-the-ministry-of-transport-s-committee-of-supply-debate-2020-sustainable-competitive-industries-and-sustainable-environment-with-a-focus-on-aviation-maritime-and-active-mobility/" target="blank">will participate in</a> (1) the voluntary phase of the Carbon Offsetting and Reduction Scheme for International Aviation (CORSIA) to freeze carbon footprint, improve energy efficiency and study the use of sustainable aviation fuels, and (2) launch the Maritime Singapore Decarbonisation Blueprint 2050 next year, placing $40 million under the Maritime GreenFuture Fund.  
                                 </ul>
                             </div>
+                            <div class="content">
+                                <h3 class="title is-4">Boundary Guidelines</h3>
+                                <table class="table is-bordered ">
+                                    <tbody>
+                                        <tr>
+                                            <td><p class="has-text-centered">-3</p></td>
+                                            <td>Engages in climate denialism</td>
+                                        </tr>
+                                        <tr>
+                                            <td><p class="has-text-centered">3</p></td>
+                                            <td>Announce a whole-of-government Climate Change Act that legally commits the government to climate change mitigation</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
                             </section>
                             <footer class="modal-card-foot">
                             </footer>
@@ -221,6 +238,21 @@
                                     <li>NCCS’ 2016 paper <a href="https://www.nccs.gov.sg/docs/default-source/publications/take-action-today-for-a-carbon-efficient-singapore.pdf" target="blank">details</a> a variety of grants and measures for carbon efficiency, including: Energy Efficiency Grants & Incentives, continued investment in the SolarNova project, continued investment in low-carbon technology through the <a href="https://www.nrf.gov.sg/rie2020" target="blank">Research Innovation Enterprise 2020 (RIE2020)</a> scheme. </li>
                                 </ul>
                             </div>
+                            <div class="content">
+                                <h3 class="title is-4">Boundary Guidelines</h3>
+                                <table class="table is-bordered ">
+                                    <tbody>
+                                        <tr>
+                                            <td><p class="has-text-centered">-3</p></td>
+                                            <td>Party retracts previously announced funding of climate measures</td>
+                                        </tr>
+                                        <tr>
+                                            <td><p class="has-text-centered">3</p></td>
+                                            <td>Party commits to creating a dedicated climate change expenditure category and aggressively increasing the proportion of Singapore’s annual budget/GDP spent on achieving the IPCC’s ambitions on climate measures (constituting both adaptation and mitigation)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                             </section>
                             <footer class="modal-card-foot">
                             </footer>
@@ -235,13 +267,12 @@
         <br>
         <div class="container table">
             <h2 class="title has-text-left">Economic and Social Equity (-1/9)</h2>
-            <p>describe what this is</p>
+            <p>The climate crisis will affect various groups of society differently. More specifically, groups that are already disadvantaged in some form will most likely be disproportionately affected by climate change. Policies then, must take these variations into account and ensure that all citizens are adequately taken care of based on their individual needs.</p>
             <div class="table-container">
                 <table class="table is-bordered is-fullwidth is-hoverable">
                 <thead>
                     <tr>
                     <th>Question</th>
-                    <th>Boundary Guideline</th>
                     <th>Score</th>
                     </tr>
                 </thead>
@@ -251,32 +282,24 @@
                                 <p>How do the party’s plans affect wealth inequality in light of climate change?</p>
                             </td>
                             <td>
-                                <p>-3: The party’s plans will worsen wealth inequality in Singapore.</p>
-                                <br>
-                                <p>3: The party actively combats social inequity in a holistic manner; plans are premised upon the interconnectedness of social inequities and a recognition that each facet of the plan must not compromise any one community’s welfare.</p>
-
-                            </td>
-                            <td>
+                                <p class="has-text-centered">
                                 <b>-1</b>
                                 <br>
-                                <button class="button is-small is-primary modal-button" data-target="#equity1" aria-haspopup="true">Details</button>                                
+                                <button class="button is-small is-primary modal-button" data-target="#equity1" aria-haspopup="true">Details</button>
+                                </p>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <p>
                                     How does the party plan to protect the livelihoods of those affected by a green transition?</p>
-                            </td>
+                            </td>                            
                             <td>
-                                <p>-3: No transition plan is articulated (assuming serious decarbonisation and divestment).</p>
-                                <br>
-                                <p>3: A comprehensive, transparent plan with detailed aims, goals and rationales that address specific communities and assist them for the entire transitory period.</p>
-
-                            </td>
-                            <td>
+                                <p class="has-text-centered">
                                 <b>1</b>
                                 <br>
-                                <button class="button is-small is-primary modal-button" data-target="#equity2" aria-haspopup="true">Details</button>                                
+                                <button class="button is-small is-primary modal-button" data-target="#equity2" aria-haspopup="true">Details</button>
+                                </p>
                             </td>
                         </tr>
                         <tr>
@@ -285,14 +308,11 @@
                                     How does the party’s policy-making for climate take into consideration other social justice issues, such as the labour rights and living standards of migrant workers, or the possibility of incoming climate refugees?</p>
                             </td>
                             <td>
-                                <p>-3: Eco-fascism: Uses climate change to promote racist and exclusionary political platforms against minorities/disadvantaged communities</p>
-                                <br>
-                                <p>3: Articulates how the climate crisis will affect social justice issues in Singapore and presents plans that are targeted to address these issues.</p>
-                            </td>
-                            <td>
+                                <p class="has-text-centered">
                                 <b>1</b>
                                 <br>
-                                <button class="button is-small is-primary modal-button" data-target="#climateAmbition3" aria-haspopup="true">Details</button>                                
+                                <button class="button is-small is-primary modal-button" data-target="#climateAmbition3" aria-haspopup="true">Details</button>
+                                </p>
                             </td>
                         </tr>
 
@@ -316,6 +336,22 @@
                                     <li>When asked about <a href="https://www.nccs.gov.sg/media-centre/parliamentary-replies/parliamentary-reply-by-senior-minister-teo-chee-hean-on-singapores-climate-strategy-impact-on-low-income-groups" target="blank">the impacts of climate change on low-income groups</a>, Minister Teo Chee Hean re-articulated the U-Save scheme and other vouchers that will allow households to buy more energy efficient appliances, without elaborating if this will actively reduce current levels of wealth inequality. 
                                 </ul>
                             </div>
+                            <div class="content">
+                                <h3 class="title is-4">Boundary Guidelines</h3>
+                                <table class="table is-bordered ">
+                                    <tbody>
+                                        <tr>
+                                            <td><p class="has-text-centered">-3</p></td>
+                                            <td>The party’s plans will worsen wealth inequality in Singapore.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><p class="has-text-centered">3</p></td>
+                                            <td>The party actively combats social inequity in a holistic manner; plans are premised upon the interconnectedness of social inequities and a recognition that each facet of the plan must not compromise any one community’s welfare.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
                             </section>
                             <footer class="modal-card-foot">
                             </footer>
@@ -340,6 +376,22 @@
                                     <li>Additionally, apart from <a href="https://www.straitstimes.com/politics/budget-will-contain-measures-to-help-singaporeans-and-businesses-chan-chun-sing" target="blank">existing reskilling programmes</a>, the government has <a href="https://www.nccs.gov.sg/docs/default-source/default-document-library/annex-for-singapore's-leds-public-consultation-response-(final).pdf" target="blank">assured</a> that it will ensure that workers have relevant skills and <a href="https://www.mot.gov.sg/news-centre/news/Detail/speech-by-senior-minister-of-state-for-transport-and-health-lam-pin-min-at-the-ministry-of-transport-s-committee-of-supply-debate-2020-sustainable-competitive-industries-and-sustainable-environment-with-a-focus-on-aviation-maritime-and-active-mobility/" target="blank">opportunities</a> for the green economy.</li>                                        
                                 </ul>
                             </div>
+                            <div class="content">
+                                <h3 class="title is-4">Boundary Guidelines</h3>
+                                <table class="table is-bordered ">
+                                    <tbody>
+                                        <tr>
+                                            <td><p class="has-text-centered">-3</p></td>
+                                            <td>No transition plan is articulated (assuming serious decarbonisation and divestment).</td>
+                                        </tr>
+                                        <tr>
+                                            <td><p class="has-text-centered">3</p></td>
+                                            <td>A comprehensive, transparent plan with detailed aims, goals and rationales that address specific communities and assist them for the entire transitory period.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
                             </section>
                             <footer class="modal-card-foot">
                             </footer>
@@ -364,6 +416,22 @@
                                     <li>The government has alluded to the <a href="https://www.todayonline.com/singapore/policies-may-have-change-society-evolves-chan-chun-sing" target="blank">recognition of changing social systems and the need to change policies to take care of citizens under these new ways of living.</a> This is not in relation to the climate crisis though, and no recognition of its interconnectedness is highlighted. However, one can speculate that approaches/policies may change to reflect these contemporary social relations as time goes by.</li>
                                 </ul>
                             </div>
+                            <div class="content">
+                                <h3 class="title is-4">Boundary Guidelines</h3>
+                                <table class="table is-bordered ">
+                                    <tbody>
+                                        <tr>
+                                            <td><p class="has-text-centered">-3</p></td>
+                                            <td>Eco-fascism: Uses climate change to promote racist and exclusionary political platforms against minorities/disadvantaged communities</td>
+                                        </tr>
+                                        <tr>
+                                            <td><p class="has-text-centered">3</p></td>
+                                            <td>Articulates how the climate crisis will affect social justice issues in Singapore and presents plans that are targeted to address these issues</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
                             </section>
                             <footer class="modal-card-foot">
                             </footer>
@@ -373,7 +441,550 @@
                 </div>
         </div>
     </section>
+    <section class="section" id="energy">
+        <br>
+        <br>
+        <div class="container table">
+            <h2 class="title has-text-left">Energy (-1/9)</h2>
+            <p>To reduce our emissions, ambitious efforts will be needed to reduce our reliance on fossil fuels for energy. Currently, 95% of our electricity comes from natural gas. Shifting away from natural gas will require a combination of reducing our energy needs, and improving access to renewable sources through innovation and regional collaboration.</p>
+            <div class="table-container">
+                <table class="table is-bordered is-fullwidth is-hoverable">
+                <thead>
+                    <tr>
+                    <th>Question</th>
+                    <th>Score</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>
+                                    How does the party intend to manage domestic energy consumption? 
+                                    </p>
+                            </td>
+                            <td>
+                                <p class="has-text-centered">
+                                <b>0</b>
+                                <br>
+                                <button class="button is-small is-primary modal-button" data-target="#energy1" aria-haspopup="true">Details</button>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>What plans does the party have to increase domestic access to clean energy? </p>
+                            </td>                            
+                            <td>
+                                <p class="has-text-centered">
+                                <b>1</b>
+                                <br>
+                                <button class="button is-small is-primary modal-button" data-target="#equity2" aria-haspopup="true">Details</button>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>How does the party plan to remove Singapore’s reliance on fossil fuel? </p>
+                            </td>
+                            <td>
+                                <p class="has-text-centered">
+                                <b>-2</b>
+                                <br>
+                                <button class="button is-small is-primary modal-button" data-target="#climateAmbition3" aria-haspopup="true">Details</button>
+                                </p>
+                            </td>
+                        </tr>
 
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal" id="energy1">
+                    <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                            <p class="modal-card-title">Energy and domestic consumption</p>
+                            </header>
+                            <section class="modal-card-body">
+                            <h3 class="title is-4">Summary</h3>
+                            <p>While energy efficiency measures have been widely adopted, overall energy demand is still projected to rise until about 2030. Singapore’s consumption of electricity has been rising year-on-year since at least 2012. Looking to the future, electricity demand is still expected to rise until at least 2030. Much of this demand comes from the industry sector.
+                            </p>
+                            <div class="content">
+                                <h3 class="title is-4">Elaboration</h3>
+                                <ul>
+                                    <li><a href="https://www.ema.gov.sg/Singapore-Energy-Statistics-2019" target="blank">Overall electricity consumption</a> of Singaporean companies has risen every year since 2012, from 44.2TWh in 2012 to 50.4TWh in 2018. Industry takes from two thirds of Singapore’s final energy consumption and close to 90% of Singapore’s natural gas consumption. </li>
+                                    <li><a href="https://www.ema.gov.sg/cmsmedia/Singapore%20Electricity%20Market%20Outlook%202019.PDF" target="blank">Annual system demand</a> for electricity is projected to reach 63-68TWh in 2030.</li>
+                                    <li>This is despite a slew of energy efficiency measures. Singapore-based companies have become more <a href="https://www.reach.gov.sg/-/media/reach/reach-files/public-consultations/2020/nccs/public-consultation-on-developing-singapores-long-term-low-emissions-strategy/annex-for-singapores-leds-public-consultation-response.ashx" target="blank">energy efficient</a> in the last 5 years. NEA’s <a href="https://www.e2singapore.gov.sg/programmes-and-grants/incentives/energy-efficiency-fund" target="blank">Energy Efficiency Fund</a> and EDB’s <a href="https://www.edb.gov.sg/en/how-we-help/incentives-and-schemes.html" target="blank">Resource Efficiency Grant for Energy</a> supports efforts by businesses to improve energy efficiency at industrial facilities, while the <a href="https://www.nea.gov.sg/our-services/climate-change-energy-efficiency/energy-efficiency/industrial-sector/mandatory-energy-management-practices-for-existing-industrial-facilities" target="blank">Energy Conservation Act (ECA)</a> requires large energy users to adopt good energy management practices. </li>
+                                    <li>In 2019, NEA <a href="https://www.mewr.gov.sg/news/speech-by-mr-masagos-zulkifli--minister-for-the-environment-and-water-resources--at-the-committee-of-supply-debate--4-march-2020" target="blank">rolled out the Minimum Energy Efficiency Standards (MEES)</a> for industrial-chilled water cooling systems. MEES will decrease energy consumption in industrial facilities by at least 245 GWh annually, equivalent to taking more than 20,000 cars off the road. From 2021, energy-intensive companies, including oil-refining companies, will be required to establish facility-wide energy management systems and conduct energy efficiency opportunities assessments. </li>
+                                    <li>NEA organizes the <a href="https://www.e2singapore.gov.sg/programmes-and-grants/training/eenp-awards---industrial-energy-efficiency-sharing-session/iee-sharing-session-2018" target="blank">Industry Energy Efficiency Sharing Session</a> to share best practices on energy efficiency. Further, they have set up the <a href="https://www.singaporetech.edu.sg/digitalnewsroom/new-energy-efficiency-technology-centre-and-grant-to-boost-industry-capabilities/" target="blank">Energy Efficiency Technology Centre</a> to help local companies implement energy efficient improvement measures. </li>
+                                </ul>
+                            </div>
+                            <div class="content">
+                                <h3 class="title is-4">Boundary Guidelines</h3>
+                                <table class="table is-bordered ">
+                                    <tbody>
+                                        <tr>
+                                            <td><p class="has-text-centered">-3</p></td>
+                                            <td>The party’s plans will worsen wealth inequality in SingaporeUnrestrained growth in energy consumption, including no consideration to be more energy efficient.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><p class="has-text-centered">3</p></td>
+                                            <td>Commit to a significant reduction in energy consumption that goes beyond increasing energy efficiency to reducing the presence of fossil fuel industries</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            </section>
+                            <footer class="modal-card-foot">
+                            </footer>
+                        </div>
+                        <button class="modal-close is-large" aria-label="close"></button>
+                    </div>
+            </div>
+                <div class="modal" id="energy2">
+                    <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                            <p class="modal-card-title">Access to clean energy</p>
+                            </header>
+                            <section class="modal-card-body">
+                            <h3 class="title is-4">Summary</h3>
+                            <p>Progress on regional collaboration remains slow and mooted in the distant future. That said, the government has been working towards increasing its solar capacity and installing solar panels on HDB rooftops. However, this still fulfils only a small percentage of Singapore’s energy needs.</p>
+                            <div class="content">
+                                <h3 class="title is-4">Elaboration</h3>
+                                <ul>
+                                    <li>Progress on collaboration with regional partners, in particular through the ASEAN Power Grid, remains slow in spite of the massive endowment of renewable resources in the region. Most of the headway made has been limited to the <a href="https://www.iea.org/reports/establishing-multilateral-power-trade-in-asean" target="blank">bilateral development of transmission infrastructure and trade.</a></li>
+                                    <li>Even with the <a href="https://www.iea.org/reports/establishing-multilateral-power-trade-in-asean" target="blank">Lao PDR-Thailand-Malaysia-Singapore Power Integration Project (LTMS–PIP)</a>, a “pathfinder” multilateral power trading project, the Singapore government appears lukewarm in its commitment. As it stands today, the LTMS–PIP involves only the sale of electricity from Lao PDR to Malaysia, with Thailand acting as a transit country.</li>
+                                    <li>There has been, nonetheless, some progress on this front. The government has announced the <a href="https://www.straitstimes.com/business/economy/20b-plan-to-supply-solar-power-from-australia-to-spore" target="blank">Australia-Singapore Power Link</a>, a long distance solar transmission project with Australia mooted for 2030. The Australia-Singapore Power Link is projected to supply a fifth of Singapore's power needs, helping to ease its dependence on imported liquefied natural gas.   </li>
+                                    <li>The Singapore government has also announced a <a href="https://www.hdb.gov.sg/cs/infoweb/press-releases/30122019-ccg_mrp-hdb-increases-solar-target-from-220-mwp" target="blank">2GWp target for solar energy by 2030</a> (equivalent to 10% of Singapore’s peak daily electricity demand), with plans to fit <a href="https://www.mti.gov.sg/Newsroom/Speeches/2019/10/Speech-by-Minister-Chan-Chun-Sing-at-the-12th-Singapore-International-Energy-Week-2019" target="blank">one in two HDB rooftops with solar panels</a> over the upcoming years. As of December 2019, HDB had installed solar PV systems <a href="https://www.reach.gov.sg/-/media/reach/reach-files/public-consultations/2020/nccs/public-consultation-on-developing-singapores-long-term-low-emissions-strategy/annex-for-singapores-leds-public-consultation-response.ashx" target="blank">at about 2,200 HDB blocks</a>. In 2021, <a href="https://www.straitstimes.com/singapore/environment/pub-plans-massive-floating-solar-panel-system-in-reservoir" target="blank">PUB will be deploying a floating solar PV system on Tengah reservoir.</a></li>
+                                    <li>However, the government will not provide subsidies to solar electricity generators <a href="https://www.reach.gov.sg/-/media/reach/reach-files/public-consultations/2020/nccs/public-consultation-on-developing-singapores-long-term-low-emissions-strategy/annex-for-singapores-leds-public-consultation-response.ashx" target="blank">for fear that it will distort the market price signal.</a></li>
+                                </ul>
+                            </div>
+                            <div class="content">
+                                <h3 class="title is-4">Boundary Guidelines</h3>
+                                <table class="table is-bordered ">
+                                    <tbody>
+                                        <tr>
+                                            <td><p class="has-text-centered">-3</p></td>
+                                            <td>Withdraw and withhold all investments in clean energy</td>
+                                        </tr>
+                                        <tr>
+                                            <td><p class="has-text-centered">3</p></td>
+                                            <td>Clear plan to collaborate with regional or international players to develop domestic access to renewable energy that is sustainably and ethically produced.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            </section>
+                            <footer class="modal-card-foot">
+                            </footer>
+                        </div>
+                        <button class="modal-close is-large" aria-label="close"></button>
+                    </div>
+                </div>
+                <div class="modal" id="energy3">
+                    <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                            <p class="modal-card-title">Fossil fuel reliance</p>
+                            </header>
+                            <section class="modal-card-body">
+                            <h3 class="title is-4">Summary</h3>
+                            <p>The Singapore government has given mixed messages on the future of fossil fuels. They have recognised that fossil fuels have a limited role in Singapore’s long term energy needs, but haven’t said anything concrete about disavowing the fossil fuel industry. They also continue to push for the expansion of the petrochemical industry.</p>
+                            <div class="content">
+                                <h3 class="title is-4">Elaboration</h3>
+                                <ul>
+                                    <li>Minister for Trade and Industry (MTI) Chan Chun Sing has said that Singapore is <a href="https://www.straitstimes.com/opinion/the-will-to-defy-the-odds-of-history" target="blank">“thinking of a future away from fossil fuels”</a>, but has also said that natural gas will remain the dominant energy source for the next <a href="https://www.straitstimes.com/singapore/environment/natural-gas-to-remain-spores-key-energy-fuel-for-50-years" target="blank">50 years</a>. Worryingly, the faith that oil giants such as <a href="https://www.economist.com/briefing/2019/02/09/exxonmobil-gambles-on-growth" target="blank">Exxonmobil</a> and <a href="https://www.reuters.com/article/us-shell-climate-exclusive/exclusive-no-choice-but-to-invest-in-oil-shell-ceo-says-idUSKBN1WT2JL" target="blank">Shell</a> are also thinking of a future beyond fossil fuel seems misplaced. In 2019 Chan called Exxonmobil a “close and trusted partner” of Singapore at the multi-billion dollar expansion of its manufacturing complex on Jurong Island</li>
+                                    <li>Even though the government claims that Singapore’s petrochemical industry is amongst the <a href="https://www.straitstimes.com/singapore/singapore-has-wealth-of-new-opportunities-to-exploit-chan" target="blank">cleanest</a> in the world, it now <a href="https://www.straitstimes.com/politics/parliament-about-75-of-industrial-emissions-are-from-refining-and-petrochemicals-sector" target="blank">accounts</a> for close to half of Singapore’s emissions together with the oil and gas industry.</li>
+                                </ul>
+                            </div>
+                            <div class="content">
+                                <h3 class="title is-4">Boundary Guidelines</h3>
+                                <table class="table is-bordered ">
+                                    <tbody>
+                                        <tr>
+                                            <td><p class="has-text-centered">-3</p></td>
+                                            <td>Endorses a return to complete reliance on the most polluting fossil fuels such as coal.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><p class="has-text-centered">3</p></td>
+                                            <td>Clear road map on how Singapore can transition away from fossil fuels entirely.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            </section>
+                            <footer class="modal-card-foot">
+                            </footer>
+                        </div>
+                        <button class="modal-close is-large" aria-label="close"></button>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="section" id="carbonPricing">
+        <br>
+        <br>
+        <div class="container table">
+            <h2 class="title has-text-left">Carbon Pricing (1/9)</h2>
+            <p>By putting a price on carbon emissions, we ensure that the price of fossil fuels includes the cost of climate disruption and leverage the capacity of the market to enable emissions reductions. That said, carbon pricing is not a silver bullet and must be accompanied by other ambitious policies. Carbon pricing can be evaluated in three aspects: 1) Price 2) Coverage of carbon emitting institutions 3) How the carbon tax revenue is used. </p>
+            <div class="table-container">
+                <table class="table is-bordered is-fullwidth is-hoverable">
+                <thead>
+                    <tr>
+                    <th>Question</th>
+                    <th>Score</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>To what extent is the proposed carbon price, in conjunction with other climate policies, sufficient to limit warming to 1.5 degree celsius warming above pre-industrial levels?</p>
+                            </td>
+                            <td>
+                                <p class="has-text-centered">
+                                <b>-2</b>
+                                <br>
+                                <button class="button is-small is-primary modal-button" data-target="#carbonpricing1" aria-haspopup="true">Details</button>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>How encompassing is the coverage of the carbon tax across the entire economy?</p>
+                            </td>                            
+                            <td>
+                                <p class="has-text-centered">
+                                <b>2</b>
+                                <br>
+                                <button class="button is-small is-primary modal-button" data-target="#carbonpricing2" aria-haspopup="true">Details</button>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>How will revenues from the carbon tax be used?</p>
+                            </td>
+                            <td>
+                                <p class="has-text-centered">
+                                <b>1</b>
+                                <br>
+                                <button class="button is-small is-primary modal-button" data-target="#carbonpricing3" aria-haspopup="true">Details</button>
+                                </p>
+                            </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal" id="carbonpricing1">
+                    <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                            <p class="modal-card-title">Carbon pricing sufficiency</p>
+                            </header>
+                            <section class="modal-card-body">
+                            <h3 class="title is-4">Summary</h3>
+                            <p>Current and projected carbon tax rates are highly insufficient. Additionally, there is a lack of transparency regarding how the rates were derived, as well as their predicted impact on emissions reductions.</p>
+                            <div class="content">
+                                <h3 class="title is-4">Elaboration</h3>
+                                <ul>
+                                    <li>The current and projected carbon tax rates are highly insufficient. Currently, the carbon tax is set at <a href="https://www.nccs.gov.sg/climate-change-and-singapore/reducing-emissions/carbon-tax" target="blank">$5 per tonne of Carbon Dioxide emitted for industrial facilities that emit over 25,000 tCO2e</a>. Singapore <a href="https://www.nea.gov.sg/our-services/climate-change-energy-efficiency/climate-change/carbon-tax" target="blank">will review</a> the carbon tax rate by 2023, with plans to increase it to between $10 and $15 per tonne of GHG emissions by 2030. </li>
+                                    <li>Although there is no single ideal carbon price out there as that is dependent on the country’s energy mix and climate policies, Singapore’s current and targeted rates are still clearly too low. Numerous figures have been proposed as guidelines for an “optimal” carbon price. <a href="https://www.carbonpricingleadership.org/news/2017/5/25/leading-economists-a-strong-carbon-price-needed-to-drive-large-scale-climate-action" target="blank">A report</a> by the High-Level Commission on Carbon Prices, chaired by Joseph Stiglitz and Lord Nicholas Stern, recommends that a tax of at least US$40–80 per tonne by 2020, rising to US$50–100 in 2030 is necessary in order to meet the targets of the Paris Agreement.</li>
+                                    <li>In a book titled “The Climate Casino” by pioneering environmental economist William Nordhaus where he analysed 13 models on carbon prices, he found an average carbon price of approximately US$30 per tonne in 2020 rising to US$55 in 2030 is necessary in order to keep to a 2.5°C target. His own economic modelling of the social costs of climate change, suggests an “optimal” scenario of 3.5°C of warming in 2100, where the 2015 social cost of carbon is US$30 per tonne, rising to US$42 in 2025. Adjusting the model to a 2.5°C warming projection, by contrast, brings this social cost of carbon upwards of US$200 per tonne from 2020 onwards.</li>
+                                    <li>Others suggest that the carbon price should be pitched at a level that incentivises utilising carbon capture technologies, which optimistic estimates say are possible at least <a href="https://www.theatlantic.com/science/archive/2018/06/its-possible-to-reverse-climate-change-suggests-major-new-study/562289/" target="blank">US$100 per tonne.</a></li>
+                                    <li>Further, there is a lack of information on how the carbon tax rates were decided and how they will contribute to emissions reductions.</li>
+                                </ul>
+                            </div>
+                            <div class="content">
+                                <h3 class="title is-4">Boundary Guidelines</h3>
+                                <table class="table is-bordered ">
+                                    <tbody>
+                                        <tr>
+                                            <td><p class="has-text-centered">-3</p></td>
+                                            <td>Repeal current carbon tax of $5/tCO2e, without any future plans to reintroduce the tax, or retain the current rate but introduce exemptions for heavy polluters</td>
+                                        </tr>
+                                        <tr>
+                                            <td><p class="has-text-centered">3</p></td>
+                                            <td>Calculate and significantly increase the carbon tax to internalise the social and environmental cost of carbon in Singapore, as has been done by the <a href="https://www.imf.org/external/pubs/ft/fandd/2019/12/the-case-for-carbon-taxation-and-putting-a-price-on-pollution-parry.htm" target="blank">International Monetary Fund</a> for instance. Additionally, these calculations should be made public and reflect how the proposed carbon price, along with other policies, will limit us to 1.5 degree celsius warming above pre-industrial levels.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            </section>
+                            <footer class="modal-card-foot">
+                            </footer>
+                        </div>
+                        <button class="modal-close is-large" aria-label="close"></button>
+                    </div>
+            </div>
+                <div class="modal" id="carbonpricing2">
+                    <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                            <p class="modal-card-title">Carbon tax coverage</p>
+                            </header>
+                            <section class="modal-card-body">
+                            <h3 class="title is-4">Summary</h3>
+                            <p>The Carbon Pricing Act charges by facilities, not entities, leaving a loophole that allows corporations to get away with having many emitting facilities which individual emissions level falls below the minimum level required for them to be taxed. That said, Singapore’s carbon tax is commendable in the sense that it is applied to all sectors without exemptions and covers 80% of Singapore’s greenhouse gas emissions.</p>
+                            <div class="content">
+                                <h3 class="title is-4">Elaboration</h3>
+                                <ul>
+                                    <li>The Carbon Pricing Act does not extend to all companies with emitting industrial facilities. <a href="https://drive.google.com/file/d/14rLFJ6- OLpHWttVH0NSLfnvawKGKeTb2/view" target="blank">Only facilities with more than a given amount (25,000 tonnes of greenhouse gas emissions per year) are taxed. “Facility” refers to a single factory or infrastructure, rather than a company which is known as an “entity”</a>. This means a larger company with two smaller facilities that do not exceed the stated emissions limit individually will not be taxed. On the contrary, a smaller company with one facility over the stated emissions limit will be taxed even though the total emissions of the first company is higher than the second.</li>
+                                    <li>That said, the carbon tax is <a href="https://www.straitstimes.com/politics/carbon-tax-will-affect-mainly-large-polluters" target="blank">implemented uniformly to all sectors, without exemption</a>. This is commendable, given that in several countries, the carbon tax comes with an exemption to certain pollutive industries.</li>
+                                    <li>The tax will affect <a href="https://www.channelnewsasia.com/news/singapore/5-things-you-need-to-know-about-how-the-carbon-tax-works-9905952" target="blank">30-40 large emitters</a>. These emitters <a href="https://www.straitstimes.com/singapore/singapore-budget-2018-carbon-tax-of-5-per-tonne-of-greenhouse-gas-emissions-to-be-levied" target="blank">contribute to 80% of Singapore’s greenhouse gas emissions</a>.</li>
+                                </ul>
+                            </div>
+                            <div class="content">
+                                <h3 class="title is-4">Boundary Guidelines</h3>
+                                <table class="table is-bordered ">
+                                    <tbody>
+                                        <tr>
+                                            <td><p class="has-text-centered">-3</p></td>
+                                            <td>Exemptions for heaviest emitting companies</td>
+                                        </tr>
+                                        <tr>
+                                            <td><p class="has-text-centered">3</p></td>
+                                            <td>Extending the carbon tax to all companies (not facilities) with emitting industrial facilities</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            </section>
+                            <footer class="modal-card-foot">
+                            </footer>
+                        </div>
+                        <button class="modal-close is-large" aria-label="close"></button>
+                    </div>
+                </div>
+                <div class="modal" id="carbonpricing3">
+                    <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                            <p class="modal-card-title">Carbon tax revenue usage</p>
+                            </header>
+                            <section class="modal-card-body">
+                            <h3 class="title is-4">Summary</h3>
+                            <p>The carbon tax revenue should be progressively redistributed to households according to needs. This gives citizens a direct stake in a policy that affects their daily lives, and ensures that the offsetting effect to the tax is not left up to the government’s discretion.</p>
+                            <div class="content">
+                                <h3 class="title is-4">Elaboration</h3>
+                                <ul>
+                                    <li>It is unclear if or how the carbon tax revenue is redistributed to citizens. As of yet, the government has shared that it expects to collect a carbon tax revenue of <a href="https://www.straitstimes.com/politics/carbon-tax-will-affect-mainly-large-polluters" target="blank">nearly $1 billion over</a> the first five years. Revenues will be used to fund green initiatives via two existing schemes: the Productivity Grant (Energy Efficiency) and the Energy Efficiency Fund. This includes measures by industry to reduce emissions and providing measures to ease the transition.</li>
+                                    <li>The impact on households has been estimated to be <a href="https://www.straitstimes.com/singapore/singapore-budget-2018-carbon-tax-of-5-per-tonne-of-greenhouse-gas-emissions-to-be-levied" target="blank">about 1% point increase in total electricity and gas expenses on average.</a> <a href="https://www.straitstimes.com/singapore/singapore-budget-2018-carbon-tax-of-5-per-tonne-of-greenhouse-gas-emissions-to-be-levied" target="blank">Households will get help in the form of additional utilities rebates</a> through the GST Voucher U-Save scheme. Eligible HDB households will each receive $20 more per year for three years, which will cover the expected average increase in electricity and gas expenses for HDB households arising from the carbon tax.</li>
+                                    <li>By not legislating that the progressive redistribution of the carbon tax revenue, this excludes citizens from having a stake in a policy that affects their daily lives and also leaves the continuity of the offsetting rebates completely to the government’s discretion.</li>
+                                </ul>
+                            </div>
+                            <div class="content">
+                                <h3 class="title is-4">Boundary Guidelines</h3>
+                                <table class="table is-bordered ">
+                                    <tbody>
+                                        <tr>
+                                            <td><p class="has-text-centered">-3</p></td>
+                                            <td>Carbon tax revenues used to finance subsidies/grants for fossil fuel industry</td>
+                                        </tr>
+                                        <tr>
+                                            <td><p class="has-text-centered">3</p></td>
+                                            <td>Revenues from carbon tax are held in a differentiated fund and progressively redistributed according to needs as carbon dividends. This arrangement is instituted into legislation.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            </section>
+                            <footer class="modal-card-foot">
+                            </footer>
+                        </div>
+                        <button class="modal-close is-large" aria-label="close"></button>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="section" id="industry">
+        <br>
+        <br>
+        <div class="container table">
+            <h2 class="title has-text-left">Industry(-2/9)</h2>
+            <p>Industry accounts for about 60% of our total carbon emissions—the petrochemical sector being the single largest contributor—underscoring the importance and urgency of a transition to low-carbon, sustainable alternatives. This section focuses on how national commitments and regulations can instigate this shift.</p>
+            <div class="table-container">
+                <table class="table is-bordered is-fullwidth is-hoverable">
+                <thead>
+                    <tr>
+                    <th>Question</th>
+                    <th>Score</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>How much support does the party show for the fossil fuel industry?</p>
+                            </td>
+                            <td>
+                                <p class="has-text-centered">
+                                <b>-3</b>
+                                <br>
+                                <button class="button is-small is-primary modal-button" data-target="#industry1" aria-haspopup="true">Details</button>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>How does the party ensure that institutional investors divest from fossil fuel assets?</p>
+                            </td>                            
+                            <td>
+                                <p class="has-text-centered">
+                                <b>-1</b>
+                                <br>
+                                <button class="button is-small is-primary modal-button" data-target="#industry2" aria-haspopup="true">Details</button>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>How does the party encourage green investments?</p>
+                            </td>
+                            <td>
+                                <p class="has-text-centered">
+                                <b>2</b>
+                                <br>
+                                <button class="button is-small is-primary modal-button" data-target="#carbonpricing3" aria-haspopup="true">Details</button>
+                                </p>
+                            </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal" id="industry1">
+                    <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                            <p class="modal-card-title">Support for fossil fuel industry</p>
+                            </header>
+                            <section class="modal-card-body">
+                            <h3 class="title is-4">Summary</h3>
+                            <p>The government is still actively seeking to expand Singapore’s petrochemical industry, despite acknowledging the climate crisis as an urgent and existential threat.</p>
+                            <div class="content">
+                                <h3 class="title is-4">Elaboration</h3>
+                                <ul>
+                                    <li>In 2019, the government <a href="https://www.shell.com.sg/media/2019-media-releases/shell-completes-storage-expansion-at-singapore-refinery.html" target="blank">received</a> an investment from Shell to increase its storage capacity at its Bukom refinery.</li>
+                                    <li>In the same year, it <a href="https://www.exxonmobil.com.sg/News/Newsroom/News-releases/2019/0402_ExxonMobil-invests-in-Singapore-integrated-complex-to-upgrade-product-slate-to-higher-value" target="blank">accepted</a> a multi-billion investment from ExxonMobil to expand its integrated manufacturing complex in Singapore, the company’s largest production facility globally.</li>
+                                    <li>Minister Chan Chun Sing has further <a href="https://www.channelnewsasia.com/news/business/exxonmobil-to-expand-singapore-manufacturing-complex-jurong-11405298" target="blank">endorsed</a> ExxonMobil as a “close and trusted partner” of Singapore, and <a href="https://www.mti.gov.sg/Newsroom/Speeches/2019/10/Speech-by-Minister-Chan-Chun-Sing-at-the-12th-Singapore-International-Energy-Week-2019" target="blank">affirmed</a> the government's plans to grow Singapore as an LNG hub</li>
+                                    <li>The government’s support of the petrochemical industry is longstanding. For instance, in 2017, Keppel <a href="https://www.businesstimes.com.sg/companies-markets/keppel-signs-deal-with-edb-to-build-gasification-plant-on-jurong-island" target="blank">signed</a> a deal with the Economic Development Board (EDB) to build a gasification plant on Jurong Island. Earlier in 2013, the government <a href="https://www.straitstimes.com/singapore/singapores-first-coal-burning-utility-plant-now-operational" target="blank">gave</a> Tuas Power approval to open Singapore’s first coal-burning facility on Jurong Island</li>
+                                </ul>
+                            </div>
+                            <div class="content">
+                                <h3 class="title is-4">Boundary Guidelines</h3>
+                                <table class="table is-bordered ">
+                                    <tbody>
+                                        <tr>
+                                            <td><p class="has-text-centered">-3</p></td>
+                                            <td>Active support that contributes to the expansion of the fossil fuel industry locally and abroad, e.g. subsidies, grants, leases and permits.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><p class="has-text-centered">3</p></td>
+                                            <td>Plans to shift financial support away from the fossil fuel industry to lead it to a drawdown.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            </section>
+                            <footer class="modal-card-foot">
+                            </footer>
+                        </div>
+                        <button class="modal-close is-large" aria-label="close"></button>
+                    </div>
+            </div>
+                <div class="modal" id="industry2">
+                    <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                            <p class="modal-card-title">Incentivising divestment</p>
+                            </header>
+                            <section class="modal-card-body">
+                            <h3 class="title is-4">Summary</h3>
+                            <p>The effect of financial guidelines set by the government remains unclear, despite efforts to do so.</p>
+                            <div class="content">
+                                <h3 class="title is-4">Elaboration</h3>
+                                <ul>
+                                    <li>The Monetary Authority of Singapore (MAS) has <a href="https://www.mas.gov.sg/news/speeches/2019/green-finance-for-a-sustainable-world" target="blank">announced</a> that it will introduce, in 2020, Environmental Risk Management (ENRM) guidelines across the financial sector to set standards on governance, risk management, and disclosure. While this has the potential to discourage investments in fossil fuel assets, details on the guidelines are still pending.</li>
+                                    <li>The extent to which the government intends to enforce these standards is also unclear. Amy Khor has <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=oral-answer-2081" target="blank">said</a> that the government “does not interfere or influence [businesses and financial institutions’] individual investment decisions” in response to parliamentary questions about the financing of fossil fuel plants outside Singapore.</li>
+                                    <li>Minister for Education Ong Ye Kung has stated that the MAS has been “<a href="https://www.mas.gov.sg/news/parliamentary-replies/2019/reply-to-cos-cuts-on-gems-corporate-governance-and-sustainable-financing" target="blank">actively working</a> with [its] fund managers” to ensure that environmental, social and governance (ESG) considerations are incorporated into its own investment portfolio, but has not released further details.</li>
+                                    <li>Several local banks, namely OCBC Bank and DBS Bank, have announced that they will cease financing new coal-fired power plants in any market. However, this is often with the <a href="https://www.straitstimes.com/business/dbs-to-cease-financing-of-new-coal-power-plants" target="blank">condition</a> that they continue on and complete current fossil fuel projects which nevertheless <a href="https://www.eco-business.com/news/ngos-urge-dbs-pull-out-of-risky-indonesian-coal-power-deal/" target="blank">result</a> in significant pollution.</li>
+                                </ul>
+                            </div>
+                            <div class="content">
+                                <h3 class="title is-4">Boundary Guidelines</h3>
+                                <table class="table is-bordered ">
+                                    <tbody>
+                                        <tr>
+                                            <td><p class="has-text-centered">-3</p></td>
+                                            <td>Party incentivises investments in fossil fuel assets</td>
+                                        </tr>
+                                        <tr>
+                                            <td><p class="has-text-centered">3</p></td>
+                                            <td>Mandate complete divestment of portfolios from fossil fuel investments</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            </section>
+                            <footer class="modal-card-foot">
+                            </footer>
+                        </div>
+                        <button class="modal-close is-large" aria-label="close"></button>
+                    </div>
+                </div>
+                <div class="modal" id="carbonpricing3">
+                    <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                            <p class="modal-card-title">Carbon tax revenue usage</p>
+                            </header>
+                            <section class="modal-card-body">
+                            <h3 class="title is-4">Summary</h3>
+                            <p>The carbon tax revenue should be progressively redistributed to households according to needs. This gives citizens a direct stake in a policy that affects their daily lives, and ensures that the offsetting effect to the tax is not left up to the government’s discretion.</p>
+                            <div class="content">
+                                <h3 class="title is-4">Elaboration</h3>
+                                <ul>
+                                    <li>It is unclear if or how the carbon tax revenue is redistributed to citizens. As of yet, the government has shared that it expects to collect a carbon tax revenue of <a href="https://www.straitstimes.com/politics/carbon-tax-will-affect-mainly-large-polluters" target="blank">nearly $1 billion over</a> the first five years. Revenues will be used to fund green initiatives via two existing schemes: the Productivity Grant (Energy Efficiency) and the Energy Efficiency Fund. This includes measures by industry to reduce emissions and providing measures to ease the transition.</li>
+                                    <li>The impact on households has been estimated to be <a href="https://www.straitstimes.com/singapore/singapore-budget-2018-carbon-tax-of-5-per-tonne-of-greenhouse-gas-emissions-to-be-levied" target="blank">about 1% point increase in total electricity and gas expenses on average.</a> <a href="https://www.straitstimes.com/singapore/singapore-budget-2018-carbon-tax-of-5-per-tonne-of-greenhouse-gas-emissions-to-be-levied" target="blank">Households will get help in the form of additional utilities rebates</a> through the GST Voucher U-Save scheme. Eligible HDB households will each receive $20 more per year for three years, which will cover the expected average increase in electricity and gas expenses for HDB households arising from the carbon tax.</li>
+                                    <li>By not legislating that the progressive redistribution of the carbon tax revenue, this excludes citizens from having a stake in a policy that affects their daily lives and also leaves the continuity of the offsetting rebates completely to the government’s discretion.</li>
+                                </ul>
+                            </div>
+                            <div class="content">
+                                <h3 class="title is-4">Boundary Guidelines</h3>
+                                <table class="table is-bordered ">
+                                    <tbody>
+                                        <tr>
+                                            <td><p class="has-text-centered">-3</p></td>
+                                            <td>Carbon tax revenues used to finance subsidies/grants for fossil fuel industry</td>
+                                        </tr>
+                                        <tr>
+                                            <td><p class="has-text-centered">3</p></td>
+                                            <td>Revenues from carbon tax are held in a differentiated fund and progressively redistributed according to needs as carbon dividends. This arrangement is instituted into legislation.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            </section>
+                            <footer class="modal-card-foot">
+                            </footer>
+                        </div>
+                        <button class="modal-close is-large" aria-label="close"></button>
+                    </div>
+                </div>
+        </div>
+    </section>
     <footer class="footer">
         <div class="container">
             <div class="content has-text-centered">
