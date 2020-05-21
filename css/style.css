@@ -1,4 +1,7 @@
 /* The sticky class is added to the header with JS when it reaches its scroll position */
+body, button, input, select, textarea {
+  font-family: "Arial";
+}
 .sticky {
   position: fixed;
   top: 45px;
