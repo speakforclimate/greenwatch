@@ -2,12 +2,17 @@
 body, button, input, select, textarea {
   font-family: "Arial";
 }
+@media (max-width: 900px) 
+{
+    #tab
+    {
+        display: none;
+    }
+}
 .sticky {
   position: fixed;
   top: 45px;
+  margin-left:5%;
+  margin-right: 5%;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 0px;
-}
