@@ -15,4 +15,12 @@ body, button, input, select, textarea {
   margin-left:5%;
   margin-right: 5%;
 }
+.padding{
+padding-top: 10px;
+padding-right: 15px;
+}
 
+.banner  {
+  background-image: url("background.PNG");
+  background-color: #cccccc;
+}
