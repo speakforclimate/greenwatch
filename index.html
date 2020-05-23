@@ -15,9 +15,18 @@
 </head>
 
 <body>
+    <div class="loading">
+        <img id="loading-image" src="img/greenwatch-loader.gif" alt="Loading..." />
+      </div>
+    <script type="text/javascript">
+        window.addEventListener("load", function () {
+        const loader = document.querySelector(".loading");
+        loader.className += " hidden"; // class "loader hidden"
+        });
+    </script>
     <nav class="navbar is-danger is-fixed-top" style="background-color:#607031">
         <div class="navbar-brand">
-            <a class="navbar-item" href="index.html">
+            <a class="navbar-item" href="https://www.sgclimaterally.com/greenwatch">
                 <img style="background-color:#566E2A" src="img/greenwatch 70p opacity.png" alt="Greenwatch logo" width="70" height="200">
             </a>
         </div>
@@ -38,12 +47,22 @@
         </div>
     </section>
     <section class="section" id="summary">
-        <div class="container">
-            The government has acknowledged climate change as an existential threat. However, its actions have not kept up with its rhetoric of 'game change climate change'. On the whole, the government's policies, while doing well in certain sectors, shows a tendency to maintain the status quo and lacks consideration for the disproportionate effects on vulnerable communities.
-        </div>
         <div class="container has-text-centered">
-        <button class="button is-small is-success is-medium modal-button" data-target="#preamble" aria-haspopup="true">Read the full preamble</button>
+            <button class="button is-small is-success is-medium modal-button" data-target="#preamble" aria-haspopup="true">Read the full preamble</button>
         </div>
+        <br>
+        <br>
+
+        <div class="container has-text-centered">
+            <h2 class="title has-text-centered" style="font-family:Open Sans,Arial, sans-serif;font-style: italic;font-weight: bold;font-size:35px" >OVERALL SCORE FOR THE INCUMBENT GOVERNMENT</h2>
+            <img src="img/Scorebar_overall.png" alt="climate ambitions" width="300">
+        </div>
+        <br>
+        <div class="container has-text-centered">
+            The government has called climate change an existential threat, but it has not walked the talk. Its policies show a tendency to maintain the status quo and lack consideration for the disproportionate effects on vulnerable communities. Singapore can and should do better than fossil fuels.
+        </div>
+        <br>
+        <br>
         <div class="modal" id="preamble">
             <div class="modal-background"></div>
                 <div class="modal-card">
@@ -493,7 +512,7 @@
         <br>
         <div class="container table">
             <h2 class="title has-text-left"style="font-family:Open Sans,Arial, sans-serif;font-style: italic;font-weight: bold;font-size:35px">ENERGY (-2/9)</h2>
-            <img src="img/Scorebar (sections)_collective action, energy, equity.png" alt="energy" width="200">
+            <img src="img/Scorebar (sections)_industry.png" alt="energy" width="200">
             <p>To reduce our emissions, ambitious efforts will be needed to reduce our reliance on fossil fuels for energy. Currently, 95% of our electricity comes from natural gas. Shifting away from natural gas will require a combination of reducing our energy needs, and improving access to renewable sources through innovation and regional collaboration.</p>
             <div class="table-container">
                 <table class="table is-bordered is-fullwidth is-hoverable">
