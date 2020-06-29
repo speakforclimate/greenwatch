@@ -2,6 +2,7 @@
 body, button, input, select, textarea {
   font-family: "Arial";
 }
+
 @media (max-width: 900px) 
 {
     #tab
@@ -10,10 +11,12 @@ body, button, input, select, textarea {
     }
 }
 .sticky {
-  position: fixed;
+  position: absolute;
   top: 45px;
-  margin-left:5%;
-  margin-right: 5%;
+  left:45px;
+  right:45px;
+
+
 }
 .padding{
 padding-top: 10px;
@@ -60,3 +63,7 @@ padding-right: 15px;
       visibility: hidden;
   }
 }
+
+
+
+
