@@ -3,11 +3,32 @@ body, button, input, select, textarea {
   font-family: "Arial";
 }
 
+p.example {
+  font-size: medium;
+}
+
+@media screen and (max-width: 600px) {
+  p.example {
+    font-size: small;
+  }
+}
+
+p.header {
+  font-size: medium;
+}
+
+@media screen and (max-width: 600px) {
+  p.header {
+    font-size: x-small;
+  }
+}
+
+
 @media (max-width: 900px) 
 {
-    #tab
+    summaryTab
     {
-        display: none;
+        font-size: 8pt;
     }
 }
 .sticky {
